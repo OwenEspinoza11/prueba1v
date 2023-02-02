@@ -33,6 +33,7 @@
             this.calcularDepreciacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calcularPagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.solicitudPrestamoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +52,8 @@
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.calcularDepreciacionToolStripMenuItem,
             this.calcularPagoToolStripMenuItem,
-            this.solicitudPrestamoToolStripMenuItem});
+            this.solicitudPrestamoToolStripMenuItem,
+            this.ventasToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(122, 20);
             this.toolStripMenuItem1.Text = "Pestañas de cálculo";
@@ -76,6 +78,13 @@
             this.solicitudPrestamoToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
             this.solicitudPrestamoToolStripMenuItem.Text = "Solicitud prestamo";
             this.solicitudPrestamoToolStripMenuItem.Click += new System.EventHandler(this.solicitudPrestamoToolStripMenuItem_Click);
+            // 
+            // ventasToolStripMenuItem
+            // 
+            this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.ventasToolStripMenuItem.Text = "Ventas";
+            this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
             // 
             // frmMenu
             // 
@@ -102,5 +111,6 @@
         private ToolStripMenuItem calcularDepreciacionToolStripMenuItem;
         private ToolStripMenuItem calcularPagoToolStripMenuItem;
         private ToolStripMenuItem solicitudPrestamoToolStripMenuItem;
+        private ToolStripMenuItem ventasToolStripMenuItem;
     }
 }

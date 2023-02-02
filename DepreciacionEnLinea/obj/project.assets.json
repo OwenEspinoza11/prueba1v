@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\JADPA-06\\.nuget\\packages\\": {}
+    "C:\\Users\\JADPA-05\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JADPA-06\\Downloads\\peeeeeeee\\DepreciacionEnLinea\\DepreciacionEnLinea.csproj",
+      "projectUniqueName": "C:\\Users\\JADPA-05\\Desktop\\prueba1v-main\\DepreciacionEnLinea\\DepreciacionEnLinea.csproj",
       "projectName": "DepreciacionEnLinea",
-      "projectPath": "C:\\Users\\JADPA-06\\Downloads\\peeeeeeee\\DepreciacionEnLinea\\DepreciacionEnLinea.csproj",
-      "packagesPath": "C:\\Users\\JADPA-06\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JADPA-06\\Downloads\\peeeeeeee\\DepreciacionEnLinea\\obj\\",
+      "projectPath": "C:\\Users\\JADPA-05\\Desktop\\prueba1v-main\\DepreciacionEnLinea\\DepreciacionEnLinea.csproj",
+      "packagesPath": "C:\\Users\\JADPA-05\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JADPA-05\\Desktop\\prueba1v-main\\DepreciacionEnLinea\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\JADPA-06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JADPA-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

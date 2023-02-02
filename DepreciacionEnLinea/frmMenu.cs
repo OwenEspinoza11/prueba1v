@@ -5,6 +5,8 @@ namespace DepreciacionEnLinea
         frmDepreciacion x = new frmDepreciacion();
         frmFormaPago y = new frmFormaPago();
         frmPrestamo z = new frmPrestamo();
+
+        frmVentas ventas = new frmVentas();
         public frmMenu()
         {
             InitializeComponent();
@@ -26,6 +28,12 @@ namespace DepreciacionEnLinea
         {
             z.MdiParent = this;
             z.Show();
+        }
+
+        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ventas.MdiParent = this;
+            ventas.Show();
         }
     }
 }
